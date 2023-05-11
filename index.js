@@ -1,12 +1,7 @@
 
 const config = require("./config.json")
-if (config.port > 65535) return console.log("use a port at range 255 < 65535");
-if (config.port < 255) return console.log("use a port at range 255 < 65535");
-
 
 const express = require('express');
-const { WebhookClient } = require("discord.js")
-const hook = new WebhookClient({ url: 'https://discord.com/api/webhooks/1100801084919918592/PRoJzgT34gDAEdCZSVsO_1FwNGUPessOWaB-BfhZS063a43kSfPaV78D8bOjr85qPtHY' });
 
 process.on('unhandledRejection', (reason, promise) => {
     const r = reason
