@@ -10,3 +10,4 @@ run this commands in console.
 $ npm install
 $ node index.js
 ```
+<div>if you have any questions join this discord server and ask me your questions : [AS Factory](https://discord.gg/6985)</div>
