@@ -4,8 +4,9 @@ a simple discord tools that contains selfbot + nuker and can be used as a websit
 # how to run?
 edit the port in config.json
 and
-run this commands in console.\n
+run this commands in console.
 
-$ npm install\n
-$ node index.js\n
-
+```
+$ npm install
+$ node index.js
+```
